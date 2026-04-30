@@ -33,9 +33,21 @@ body {
 h1 {
   font-size: 36px;
   font-weight: 500;
-  margin: 0;
+  margin: 0 0 1.75rem 0;
   letter-spacing: -0.5px;
   color: #f5f5f5;
+}
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+  border: 3px solid #2a2a2a;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0 auto;
 }
 
 .section {
@@ -234,6 +246,10 @@ h1 {
   h1 {
     font-size: 28px;
   }
+  .profile-image {
+    width: 110px;
+    height: 110px;
+  }
   .experience-card {
     padding: 1.25rem;
   }
@@ -254,6 +270,7 @@ h1 {
 <div class="container">
   <div class="header">
     <h1>RM Consulting Services LLC</h1>
+    <img src="profile.png" alt="Raamiz Maredia" class="profile-image">
   </div>
 
   <div class="section">
@@ -261,7 +278,7 @@ h1 {
     <div class="experience-card">
       <div class="experience-intro">5+ years of NetSuite ERP consulting experience across Oracle Corporation and RM Consulting Services LLC</div>
       <ul class="accomplishments">
-        <li>Led 15+ end-to-end NetSuite ERP implementations across Campus Bookstores, Manufacturing, Wholesale Distribution, Restaurants &amp; Hospitality, and Retail</li>
+        <li>Led 15+ end-to-end NetSuite ERP implementations across Higher Education, Manufacturing, Wholesale Distribution, Restaurants &amp; Hospitality, Retail, and Campus Bookstores</li>
         <li>Engineered custom workflows and automated business processes across multiple modules to meet client-specific operational requirements</li>
         <li>Developed custom reports, saved searches, and SuiteAnalytics Workbooks, delivering actionable insights and enabling accurate KPI tracking for end-users</li>
         <li>Implemented core business processes including Record-to-Report, Procure-to-Pay, Order-to-Cash, Design-to-Build, Lead-to-Quote, and Marketing-to-ROI</li>
