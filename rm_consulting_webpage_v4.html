@@ -1,0 +1,225 @@
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background: var(--color-background-primary);
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border-tertiary);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+}
+
+.experience-card {
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-intro {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+
+.accomplishments {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.accomplishments li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.accomplishments li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-text-secondary);
+  font-weight: bold;
+}
+
+.subsection {
+  padding-top: 1.25rem;
+  border-top: 0.5px solid var(--color-border-tertiary);
+  margin-top: 0.5rem;
+}
+
+.subsection + .subsection {
+  margin-top: 1.25rem;
+}
+
+.subsection-title {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.skill-group {
+  margin-bottom: 0.75rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-label {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.skill-list {
+  color: var(--color-text-secondary);
+}
+
+.education-item {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
+
+.education-degree {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.education-school {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+.contact-section {
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.contact-label {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.contact-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.contact-link:hover {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>RM Consulting Services LLC</h1>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Professional experience</h2>
+    <div class="experience-card">
+      <div class="experience-intro">5+ years of NetSuite ERP consulting experience across Oracle Corporation and RM Consulting Services LLC</div>
+      <ul class="accomplishments">
+        <li>Led 15+ end-to-end NetSuite ERP implementations across Higher Education, Manufacturing, Wholesale Distribution, Restaurants & Hospitality, Retail, and Campus Bookstores</li>
+        <li>Engineered custom workflows and automated business processes across multiple modules to meet client-specific operational requirements</li>
+        <li>Developed custom reports, saved searches, and SuiteAnalytics Workbooks, delivering actionable insights and enabling accurate KPI tracking for end-users</li>
+        <li>Implemented core business processes including Record-to-Report, Procure-to-Pay, Order-to-Cash, Design-to-Build, Lead-to-Quote, and Marketing-to-ROI</li>
+        <li>Holds four NetSuite certifications: SuiteFoundation, Financial User, Administrator, and ERP Consultant</li>
+      </ul>
+
+      <div class="subsection">
+        <div class="subsection-title">Skills</div>
+        <div class="skill-group">
+          <span class="skill-label">ERP & Platforms:</span> <span class="skill-list">Oracle NetSuite (SuiteFlow, SuiteAnalytics), ERP Integrations</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Analytics & Reporting:</span> <span class="skill-list">Tableau, Microsoft Excel (Advanced — PivotTables, Power Query), Access DB, PowerPoint</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Other Tools:</span> <span class="skill-list">ShipStation, BigCommerce, Jira</span>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subsection-title">Education</div>
+        <div class="education-item">
+          <div class="education-degree">Bachelor of Business Administration, Management Information Systems</div>
+          <div class="education-school">C. T. Bauer College of Business, University of Houston</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="contact-section">
+      <div class="contact-label">Get in touch</div>
+      <div class="contact-links">
+        <a href="mailto:raamizmaredia@gmail.com" class="contact-link">raamizmaredia@gmail.com</a>
+        <a href="https://www.linkedin.com/in/raamizmaredia/" class="contact-link">LinkedIn Profile</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
